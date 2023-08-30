@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-08-30T17:36:36.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="9gGKn0d9NwdPZURYmKym" version="21.7.1" type="google" pages="3">
+  <diagram name="Página-1" id="89OxvEW_jkeGQhbMgQde">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tiKnVSpQjFiTLZO6jMd--3" target="tiKnVSpQjFiTLZO6jMd--6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tiKnVSpQjFiTLZO6jMd--3" target="tiKnVSpQjFiTLZO6jMd--4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--3" value="Tem os ingredientes?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="150" y="10" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="43dhjzt5j_qPPmJUjabB-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tiKnVSpQjFiTLZO6jMd--4" target="tiKnVSpQjFiTLZO6jMd--8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--4" value="Adquirir os ingredientes" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tiKnVSpQjFiTLZO6jMd--6" target="tiKnVSpQjFiTLZO6jMd--9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--6" value="Coloque agua no fogo para ferver. " style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="320" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tiKnVSpQjFiTLZO6jMd--8" target="tiKnVSpQjFiTLZO6jMd--3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--8" value="&lt;div&gt;Preparar Miojo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="10" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tiKnVSpQjFiTLZO6jMd--9" target="tiKnVSpQjFiTLZO6jMd--10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--9" value="&lt;div&gt;Espere&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="460" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tiKnVSpQjFiTLZO6jMd--10" target="tiKnVSpQjFiTLZO6jMd--12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tiKnVSpQjFiTLZO6jMd--10" target="tiKnVSpQjFiTLZO6jMd--9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="120" />
+              <mxPoint x="520" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--10" value="&lt;div&gt;Está fervendo?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="600" y="10" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tiKnVSpQjFiTLZO6jMd--12" target="tiKnVSpQjFiTLZO6jMd--13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--12" value="&lt;div&gt;Coloque o miojo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="700" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tiKnVSpQjFiTLZO6jMd--13" target="tiKnVSpQjFiTLZO6jMd--14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--13" value="Mexa ate que ele fique solto" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="700" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cTj65Cfn49JEXiWHDZsc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiKnVSpQjFiTLZO6jMd--14" target="cTj65Cfn49JEXiWHDZsc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--14" value="&lt;div&gt;Coloque o tempero.&lt;/div&gt;&lt;div&gt;Desligue o fogo.&lt;/div&gt;&lt;div&gt;Misture.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="700" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiKnVSpQjFiTLZO6jMd--16" value="Espere esfriar e consuma." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="420" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cTj65Cfn49JEXiWHDZsc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cTj65Cfn49JEXiWHDZsc-1" target="tiKnVSpQjFiTLZO6jMd--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cTj65Cfn49JEXiWHDZsc-1" value="Coloque em um prato" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8MBUhzlb96lPy7JhE_lF" name="Página-2">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-2" target="qDMVz2zNx7QJGtTU0iUh-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-2" value="&lt;div&gt;Preparar Bolo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="694" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-3" value="&lt;h1&gt;Ingredientes&lt;/h1&gt;&lt;p&gt;2 xícaras (chá) de açúcar&lt;/p&gt;&lt;p&gt;4 colheres (sopa) de margarina&lt;/p&gt;&lt;p&gt;1 e 1/2 xícara (chá) de leite&lt;/p&gt;&lt;p&gt;3 xícaras (chá) de farinha de trigo&lt;/p&gt;&lt;p&gt;3 xícaras (chá) de farinha de trigo&lt;br&gt;&lt;/p&gt;&lt;p&gt;3 ovos&lt;br&gt;&lt;/p&gt;&lt;p&gt;1 colher (sopa) bem cheia de fermento em pó&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="624" y="160" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-9" target="qDMVz2zNx7QJGtTU0iUh-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-9" target="qDMVz2zNx7QJGtTU0iUh-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-9" target="qDMVz2zNx7QJGtTU0iUh-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-9" target="qDMVz2zNx7QJGtTU0iUh-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="714" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="574" y="430" />
+              <mxPoint x="715" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-9" value="&lt;div&gt;Tem os ingredientes?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="504" y="90" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-11" target="qDMVz2zNx7QJGtTU0iUh-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="754" y="40.095238095238074" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-11" value="Adquirir os ingredientes" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="514" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-13" target="qDMVz2zNx7QJGtTU0iUh-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-13" value="Bata as claras em neve&amp;nbsp;e reserve" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="364" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-15" target="qDMVz2zNx7QJGtTU0iUh-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-15" value="Misture as gemas, a margarina e o açúcar&amp;nbsp;até obter uma massa homogênea" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="364" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-17" target="qDMVz2zNx7QJGtTU0iUh-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-17" value="Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="214" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-20" target="qDMVz2zNx7QJGtTU0iUh-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-20" target="qDMVz2zNx7QJGtTU0iUh-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-20" value="&lt;div&gt;A massa está homogênea&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="354" y="255" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-22" target="qDMVz2zNx7QJGtTU0iUh-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-22" value="Adicione as claras em neve e o fermento." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="44" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-25" target="qDMVz2zNx7QJGtTU0iUh-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-25" target="qDMVz2zNx7QJGtTU0iUh-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-25" value="Já foi acrescentado&lt;br&gt;&amp;nbsp;leite na massa?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="204" y="90" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-27" target="qDMVz2zNx7QJGtTU0iUh-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-27" value="Aguarde conclusão" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="214" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-30" target="qDMVz2zNx7QJGtTU0iUh-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-30" target="qDMVz2zNx7QJGtTU0iUh-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-30" value="&lt;div&gt;As claras em&lt;/div&gt;&lt;div&gt;&amp;nbsp;neve estão prontas?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="204" y="350" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-32" target="qDMVz2zNx7QJGtTU0iUh-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-32" value="Aguarde conclusão" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="214" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-34" target="qDMVz2zNx7QJGtTU0iUh-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-34" value="Prepare uma forma grande de furo central&amp;nbsp;untada e enfarinhada." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="364" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-37" target="qDMVz2zNx7QJGtTU0iUh-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-37" target="qDMVz2zNx7QJGtTU0iUh-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-37" value="A massa está pronta?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="354" y="440" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-39" target="qDMVz2zNx7QJGtTU0iUh-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-39" value="Aguarde conclusão" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="514" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-41" target="qDMVz2zNx7QJGtTU0iUh-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-41" value="Despeje a massa na forma untada e enfarinhada." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="284" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-44" target="qDMVz2zNx7QJGtTU0iUh-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-44" target="qDMVz2zNx7QJGtTU0iUh-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-44" value="A forma está pronta?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="14" y="550" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-46" target="qDMVz2zNx7QJGtTU0iUh-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-46" value="Aguarde conclusão" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="24" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-48" target="qDMVz2zNx7QJGtTU0iUh-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-48" value="Pré-aqueça o forno&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="654" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-50" target="qDMVz2zNx7QJGtTU0iUh-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="714" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-50" value="A massa está na forma?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="644" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-52" target="qDMVz2zNx7QJGtTU0iUh-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-52" value="Aguarde conclusão" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="654" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-54" target="qDMVz2zNx7QJGtTU0iUh-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-54" value="Asse em forno médio 180 °C,por aproximadamente 40 minutos" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="284" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-56" target="qDMVz2zNx7QJGtTU0iUh-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-56" value="Faça o teste do garfo(Enfie um garfo ou palito no bolo)." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="284" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-59" target="qDMVz2zNx7QJGtTU0iUh-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-59" target="qDMVz2zNx7QJGtTU0iUh-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-59" value="O garfo saiu limpo?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="274" y="820" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-60" value="&lt;div&gt;Bolo pronto&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="284" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qDMVz2zNx7QJGtTU0iUh-62" target="qDMVz2zNx7QJGtTU0iUh-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qDMVz2zNx7QJGtTU0iUh-62" value="Volte-o para o forno, e espere um pouco." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="434" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sMtB28nVsxxBt4zJ3gQy" name="Página-3">
+    <mxGraphModel dx="1434" dy="-387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yH3wbnjQlsy16PnMYevg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yH3wbnjQlsy16PnMYevg-2" target="yH3wbnjQlsy16PnMYevg-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-2" value="&lt;div&gt;Receber e somar dois números&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yH3wbnjQlsy16PnMYevg-4" target="yH3wbnjQlsy16PnMYevg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-4" value="Declare o 1º número" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yH3wbnjQlsy16PnMYevg-6" target="yH3wbnjQlsy16PnMYevg-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-6" value="Declare o 2º número" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yH3wbnjQlsy16PnMYevg-9" target="yH3wbnjQlsy16PnMYevg-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yH3wbnjQlsy16PnMYevg-9" target="yH3wbnjQlsy16PnMYevg-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-9" value="O 1º e 2º elementos&lt;br&gt;são números?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry y="1340" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yH3wbnjQlsy16PnMYevg-11" target="yH3wbnjQlsy16PnMYevg-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-11" value="Digite somente números" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#99FF99;fillColor=#99FF99;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yH3wbnjQlsy16PnMYevg-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-13" value="Realize a soma" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#99CCFF;fillColor=#99CCFF;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yH3wbnjQlsy16PnMYevg-14" value="&lt;div&gt;Apresentar Soma&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
