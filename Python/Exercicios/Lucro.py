@@ -29,4 +29,10 @@ def divisores():
 
 x = int(input("Digite o numero de pacientes:"))
 
-for x in range (0,x,1)
+for x in range (0,x,1):
+    z = (input("Digite o nome do paciente:"))
+    y = float(input("Digite a altura do paciente"))
+    c = float(input("Digite o peso do paciente"))
+
+    imc = c /(y**2)
+    print(f"O {z}, tem {y} de altura, pesa {c} tem o imc igual a {imc}")
