@@ -1,6 +1,34 @@
+import os
+
 def menuA():
-    print("--------------------\n---Menu A---\n--------------------\n")
-    op = int(input("Digite um numero:"))
+    #submenus = {}
+
+    while True:
+        print("--------------------\n---Menu A---\n--------------------\n")
+
+        opcoes = ["Opção 1", "Opção 2", "Opção 3", "Opção 4"]
+
+        for i, opcao in enumerate(opcoes):
+            print(f"[{i + 1}] - {opcao}")
+
+        print("[0] - Voltar\n")
+        op = int(input("Digite um numero:"))
+
+        if op == 0:
+            os.system('cls')
+            print("Saindo...\n")
+            break
+
+        elif op > 0:
+            os.system('cls')
+            print(f"{opcoes[op - 1]} foi escolhida\n")
+
+        #if op in menus:
+            #print(f"{opcoes[op - 1]} foi escolhida\n")
+            #menus[op]()
+
+        else:
+            print("Opção Inválida\n")
 
 def menuB():
     print("--------------------\n---Menu B---\n--------------------\n")
@@ -35,10 +63,12 @@ def mainMenu():
         op = int(input("Digite um número:"))
 
         if op == 0:
+            os.system('cls')
             print("Saindo...\n")
             break
 
         if op in menus:
+            os.system('cls')
             print(f"{opcoes[op - 1]} foi escolhida\n")
             menus[op]()
 
