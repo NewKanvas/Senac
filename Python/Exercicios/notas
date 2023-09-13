@@ -1,0 +1,16 @@
+def check():
+    n = int(input("Digite:"))
+
+    if n >= 9:
+        print("Excelente")
+
+    elif n >= 8:
+        print("Bom")
+
+    elif n >= 5:
+        print("Passou")
+
+    elif n < 5:
+        print("Reprovou")
+
+check()
