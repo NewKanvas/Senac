@@ -13,4 +13,4 @@ def check():
     elif n < 5:
         print("Reprovou")
 
-check()
+#check()
