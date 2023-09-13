@@ -52,14 +52,20 @@ def falha():
     resultado = eh_vogal(letra)
     print(resultado)
 
-def fatorial():
-    x = 8
+def fatorial(x):
     y = x
-    for x in range (1,x+1,1):
+    for x in range (x-1,0,-1):
         # 8*7*6...
         # x = 8
         # x = x-1
-        print(y)
-        print(x)
+        #print(f"valor do {y}")
+        #print(f"valor do {x}")
+        y = y*x
 
-fatorial()
+    print(y)
+
+def fac():
+    x = int(input("Digite um número:"))
+    fatorial(x)
+
+fac()
