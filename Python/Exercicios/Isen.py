@@ -53,4 +53,13 @@ def falha():
     print(resultado)
 
 def fatorial():
-    
+    x = 8
+    y = x
+    for x in range (1,x+1,1):
+        # 8*7*6...
+        # x = 8
+        # x = x-1
+        print(y)
+        print(x)
+
+fatorial()
