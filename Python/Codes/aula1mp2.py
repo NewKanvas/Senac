@@ -2,13 +2,13 @@ from time import sleep
 
 # 1
 def T1():
-    x = 10 +20*30
-    y = 42/30 (94+2)* 6- 1
+    x = 10 + 20 * 30 + 42 / 30 + (94 + 2) * 6 - 1
+    
 
-    print(x,y)
+    print(x)
 
     sleep(2)
-
+    
 # 2
 def T2():
     print((80*94)/10+55-90)
@@ -181,9 +181,6 @@ def T13():
         x = int(input("Digite o valor(0 para sair):"))
 
     print(f"{z} numeros foram digitados, a soma é {y}")
-
-
-
 
 
 def mainMenu():
