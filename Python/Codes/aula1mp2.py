@@ -98,38 +98,91 @@ def T9():
     c = True
     
     print(
-        a and (b or c),
-        (b and a) or c,
-        b and (not b),
-        b or c,
-        not c,
-        c or a,
-        not b,
-        b or b,
-        not a,
-        c and c,
-        a and b,
-        b or b,
-        b or c
+        "a and (b or c)",a and (b or c),
+        "\n(b and a) or c",(b and a) or c,
+        "\nb and (not b)",b and (not b),
+        "\nb or c",b or c,
+        "\nnot c",not c,
+        "\nc or a",c or a,
+        "\nnot b",not b,
+        "\nb or b",b or b,
+        "\nnot a",not a,
+        "\nc and c",c and c,
+        "\na and b",a and b,
+        "\nb or b",b or b,
+        "\nb or c",b or c
     )
 
     sleep(2)
 
 #10
 def T10():
-    pass
+    A = 107
+    B = 20
+    C = False
+    D = True
+    print(A > B and C or D,"\n")
+    A = 1
+    B = 39
+    C = False
+    D = True
+    print(A > B and C or D,"\n")
+    A = 8
+    B = 27
+    C = True
+    D = True
+    print(A > B and C or D,"\n")
+
+    sleep(2)
 
 #11
 def T11():
-    pass
+    x = float(input("Digite a distancia que deseja pecorrer em km:"))
+    y = 10.97
+    z = 13.90
+
+    if x >= 300:
+        print(z*x)
+
+    else:
+        print(y*x)
+    
+    sleep(2)
 
 #12
 def T12():
-    pass
+    x = int(input("Digite o primeiro valor:"))
+    y = int(input("Digite o segundo valor:"))
+    z = input("[1] -  Soma(+)\n[2] -  Subtração(-)\n[3] -  Divisão(/)\n[4] -  Multiplicação(*)\nDigite o simbolo ou numero correspondente:")
+
+    if z == "+" or z == "1":
+        print (x+y)
+    if z == "-" or z == "2":
+        print (x+y)
+    if z == "/" or z == "3":
+        print (x/y)
+    if z == "*" or z == "4":
+        print (x*y)
+
+    else:
+        print("Sinal invalido")
+
+    sleep(2)
 
 #13
 def T13():
-    pass
+    x = int(input("Digite o valor(0 para sair):"))
+    y = 0
+    z = 0
+    while x != 0:
+        z = z+1
+        y = y+x
+
+        x = int(input("Digite o valor(0 para sair):"))
+
+    print(f"{z} numeros foram digitados, a soma é {y}")
+
+
 
 
 
