@@ -120,17 +120,17 @@ def T10():
     B = 20
     C = False
     D = True
-    print(A > B and C or D,"\n")
+    print((A > B) and (C or D),"\n")
     A = 1
     B = 39
     C = False
     D = True
-    print(A > B and C or D,"\n")
+    print((A > B) and (C or D),"\n")
     A = 8
     B = 27
     C = True
     D = True
-    print(A > B and C or D,"\n")
+    print((A > B) and (C or D),"\n")
 
     sleep(2)
 
