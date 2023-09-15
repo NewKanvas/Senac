@@ -8,7 +8,6 @@ def T1():
     print(x)
 
     sleep(2)
-    
 # 2
 def T2():
     print((80*94)/10+55-90)
