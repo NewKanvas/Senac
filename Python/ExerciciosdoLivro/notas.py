@@ -21,6 +21,7 @@ def notas():
     n3 = 10
     
     me = (n1+n2+n3)/3
+    
     ma = (n1+(n2*2)+(n3*3)+me)/7
 
     print(ma)
