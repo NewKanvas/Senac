@@ -68,3 +68,4 @@ def fac():
     x = int(input("Digite um número:"))
     fatorial(x)
 
+fac()
