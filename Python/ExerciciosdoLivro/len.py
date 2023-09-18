@@ -33,5 +33,10 @@ def test4():
 
     print(x[::-1])
 
+    #x = "Gabriel"
+
+    for i in range (len(x) -1, -1,-1): #Primeiro -1 vai para o ultimo indice no caso "0", o segundo se eu botasse 0 ele iria ate o 1, so que como e range ele vai ignora-la, então por isso vamos até o "0"
+        print(x[i])
+
 
 test4()
