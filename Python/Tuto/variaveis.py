@@ -1,3 +1,4 @@
+
 counter = 100          # Um número inteiro
 miles   = 1000.0       # Um número de ponto flutuante
 name    = "João"       # Uma string
@@ -28,6 +29,9 @@ Hello World!TEST
 '''
 
 #Listas
+'''
+Contem varios itens separados por virgula, e chamada com [], as listas pode conter itens de diferentes tipos.
+'''
 lista = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
 listam = [123, 'john']
 
@@ -50,5 +54,35 @@ abcd
 #Tuple
 
 '''
-Funciona igual a lista, porem utiliza () ao inves do [], a tupla não pode ser  atualizadas. Pode se entender como uma lista de "
+Funciona igual a lista, porem utiliza () ao inves do [], a tupla não pode ser  atualizadas. Pode se entender como uma lista de "Apenas leitura".
+'''
+
+tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+tuplem = (123, 'john')
+
+#Dictionary
+'''
+Chamados por {}, consistem de pares, o primeiro valor normalmente e chamado de "dicitionary key" esse valor pode ser quase qualquer tipo de
+valor geralmente é uma string ou um numero, por outro lado o outro segundo e chamado de "Valor" que pode ser qualquer tipo arbritario...
+'''
+
+dict = {}
+dict['um'] = "Este é o um"
+dict[2] = "Este é o dois"
+
+dictm = {'name': 'john','code':6734, 'dept': 'sales'}
+
+
+print (dict['um'])     # Imprime o "Valor" da "Chave" "um"
+print (dict[2])        # Imprime o "Valor" 2
+print (dictm)          # Imprime o Dicionario completo
+print (dictm.keys())   # Imprime todas as "Chaves"
+print (dictm.values()) # Imprime todos os "Valores"
+
+'''Resultado
+Este é o um
+Este é o dois
+{'name': 'john', 'code': 6734, 'dept': 'sales'}
+dict_keys(['name', 'code', 'dept'])
+dict_values(['john', 6734, 'sales'])
 '''
