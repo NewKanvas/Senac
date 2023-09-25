@@ -5,7 +5,7 @@ y = 0
 
 while True:
     print("--------------------\n-----Calculadora------\n--------------------\n")
-    print(f"X = {x}, Y = {y}\n")
+    print(f"X = {x}\nY = {y}\n")
     print(
             "[1] - Soma\n[2] - Subtração\n[3] - Multiplção\n[4] - Divisão\n[5] - Mudar valores\n[0] - Sair\n"
         )

@@ -1,5 +1,5 @@
-x = 0
-y = 0
+"""x = 0
+y = 0"""
 
 def mudarValor(x,y):
     x = int(input("Digite o valor de X:"))
