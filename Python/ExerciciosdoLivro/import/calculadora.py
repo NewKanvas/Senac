@@ -1,4 +1,4 @@
-from artimetica import soma,subtracao,multiplicacao,divisao,mudarValor
+from artimetica import soma as add,subtracao as sub,multiplicacao as mult,divisao as div,mudarValor as cv
 
 x =0
 y = 0
@@ -17,12 +17,12 @@ while True:
         break
 
     elif z == 1:
-        print(f"\nResultado da soma: {soma(x, y)}")
+        print(f"\nResultado da soma: {add(x, y)}")
     elif z == 2:
-        print(f"\nResultado da subtração: {subtracao(x, y)}")
+        print(f"\nResultado da subtração: {sub(x, y)}")
     elif z == 3:
-        print(f"\nResultado da multiplicação: {multiplicacao(x, y)}")
+        print(f"\nResultado da multiplicação: {mult(x, y)}")
     elif z == 4:
-       print(f"\nResultado da divisão: {divisao(x, y)}")
+       print(f"\nResultado da divisão: {div(x, y)}")
     elif z == 5:
-        x,y = mudarValor(x,y)
+        x,y = cv(x,y)
