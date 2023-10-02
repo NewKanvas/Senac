@@ -1,0 +1,3 @@
+[submodule "Python/Projetos-Senac"]
+	path = Python/Projetos-Senac
+	url = https://github.com/NewKanvas/Projetos-Senac.git
