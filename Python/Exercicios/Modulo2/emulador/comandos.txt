@@ -1,0 +1,3 @@
+python -m venv nome_env
+pip install nome_da_biblioteca
+pip freeze > requirements.txt
