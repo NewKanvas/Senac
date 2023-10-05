@@ -23,19 +23,22 @@ print(len(listY))'''
 
 def pedirNota():
     for i in range(len(op)):
-        y = int(input(f'Digite o valor minimo da nota "{op[i]}"'))
+        y = int(input(f'Digite o valor minimo da nota "{op[i]}":'))
         listX[op[i]] = y
-    print(listX)
-        
-    for i in range(len(listY)):
-        for j in range(len(op)):
-            '''elemento = listY[i][op[j]]
-            print(f"Elemento relacionado à letra '{op[j]}' no dicionário {i} da lista: {elemento}")'''
+    #print(listX)
 
-            if listY[i][op[j]] < listX[op[j]]:
-                print(f"Candidato {i + 1} é menor em '{op[j]}'")
-            elif listY[i][op[j]] > listX[op[j]]:
-                print(f"Candidato {i + 1} é maior em '{op[j]}'")
+    print("\n")
+        
+    #Verificação
+    for i in range(len(listY)):
+        status = 0
+
+        for j in range(len(op)):
+            if listY[i][op[j]] >= listX[op[j]]:
+                status = status+1
+        
+        if status == 4:
+            print (f"Candidato {i + 1} foi aprovado.")
 
 pedirNota()
 
