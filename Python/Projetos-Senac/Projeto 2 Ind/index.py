@@ -17,10 +17,11 @@ def filtrar():
             valor = int(nLista[i][1:])
             listYD[op[i]] = valor
         listY.append(listYD)
-        #Sera preciso apagar a listaC apos a filtragem caso fosse algo real.
+        
     
-    '''print(listY)
-    print(len(listY))'''
+    print(listY)
+    print(len(listY))
+    print(listC)
 
 
 def pedirNota():
