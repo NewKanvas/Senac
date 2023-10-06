@@ -55,16 +55,7 @@ def add():
 filtrar()
 
 
-'''menus = {
-         #objeto associando um numero a cada função
-        1: filtrar,
-        2: pedirNota,
-        3: add,
-        4: info
-
-     }'''
-
-'''while True:
+while True:
     print("--------------------\n---Menu Principal---\n--------------------\n")
     opcoes = ["Filtrar", "Nota Minina", "Adcionar", "Info"]
 
@@ -73,17 +64,21 @@ filtrar()
         #enumerate da o índice a cada elemento da (opções)
 
     print("[0] - Sair\n")
-    op = int(input("Digite um número:"))
+    x = int(input("Digite um número:"))
 
-    if op == 0:
+    if x == 0:
         print("Saindo...\n")
         break
 
-    if op in menus:
-            print(f"{opcoes[op - 1]} foi escolhida\n")
-            menus[op]()
+    if x == 1:
+        filtrar()
+    elif x == 2:
+        pedirNota()
+    elif x == 3:
+        add()
+    elif x == 4:
+        info()
 
     else:
         print("Opção Inválida\n")
 
-'''
