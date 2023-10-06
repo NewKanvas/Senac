@@ -113,7 +113,7 @@ while True:
     print("--------------------\n---Menu Principal---\n--------------------\n")
     opcoes = [
         "Filtrar",
-        "Definir Nota Mínima",
+        "Buscar Candidatos",
         "Adcionar Candidato",
         "Remover Candidato",
         "Info",
