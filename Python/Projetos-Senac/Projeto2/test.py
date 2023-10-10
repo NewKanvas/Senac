@@ -1,4 +1,4 @@
-def x():
+def x(i):
     while True:
         print(i)
         y = input("XXXX:")
