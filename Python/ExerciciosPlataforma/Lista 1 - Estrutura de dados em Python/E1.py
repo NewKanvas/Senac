@@ -12,3 +12,12 @@ Como Fazer:
     Utilize o método append() para adicionar dois novos nomes à lista;
     Novamente, utilize a função print() para imprimir a fila atualizada.
 """
+
+lista = ["Ed", "Edgard", "Edward", "Eddy", "Ned"]
+print(lista)
+lista.pop(0)
+print(lista)
+
+lista.append("Zed")
+lista.append("Eddi")
+print(lista)
