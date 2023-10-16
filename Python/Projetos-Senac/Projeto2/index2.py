@@ -69,6 +69,7 @@ def coletar_info():
         # Salvar as respostas
         print("Salvando respostas, carregando proximo conjunto de perguntas.")
         salvarcsv(listaC)
+        listaC.clear() #Limpar listaC para evitar acumulo de respostas repitidas.
         sleep(1)
 
 

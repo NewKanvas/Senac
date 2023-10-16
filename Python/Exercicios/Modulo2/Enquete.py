@@ -16,7 +16,7 @@ participaram da enquete, apresente uma
 mensagem convidando-as a responder."""
 
 
-pd = {"João": "Java", "Maria": "Python", "Fulano": ""}
+pd = {"João": "Java", "Maria": "Python", "Fulano": "", "Jonas":""}
 
 
 for i, (nome, linguagem) in enumerate(pd.items()):
@@ -27,7 +27,12 @@ for i, (nome, linguagem) in enumerate(pd.items()):
         x = input(f"Deseja responder, {nome}? [Y/N]: ").lower()
         if x == "y":
             y = input(f"Digite a linguagem de {nome}: ")
+
             pd[nome] = y
+            
             print(pd)
+        elif x == "n":
+            print(pd)
+
 
 
