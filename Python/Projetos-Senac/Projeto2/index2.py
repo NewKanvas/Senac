@@ -28,23 +28,38 @@ def coletar_info():
 
         else:
             print("Opção inválida. Tente novamente.")
+            sleep(1)
             continue
 
         # Pergunta da Idade
+        while True:
+            os.system("cls")
 
-        idade = input("Identifique sua idade (ou '00' para sair): ")
+            idade = input("Identifique sua idade (ou '00' para sair): ")
 
-        if idade == "00":
+            if idade == "00":  # Sai de dentro do loop
+                break
+
+            idade = int(idade)
+
+            if idade > 0:
+                respostas["Idade"] = idade
+                break
+
+            else:
+                print("Valor inválido.")
+                sleep(1)
+                continue
+
+        if idade == "00":  # Sai do programa
             break
-
-        respostas["Idade"] = idade
 
         # Lista de Perguntas
         perg = [
-            "Pergunta 1",
-            "Pergunta 2",
-            "Pergunta 3",
-            "Pergunta 4",
+            "Você avalia a diversidade no seu local de trabalho como positiva?: ",
+            "Acredita que todos os funcionários têm igualdade de oportunidades e são tratados de forma justa?: ",
+            "Sua organização oferece treinamentos de sensibilização à diversidade?: ",
+            "Acredita que a sua organização promove a participação de grupos sub-representados em cargos de liderança?: ",
         ]
 
         # Estrutura de repetição de Perguntas e Respostas
@@ -69,7 +84,7 @@ def coletar_info():
         # Salvar as respostas
         print("Salvando respostas, carregando proximo conjunto de perguntas.")
         salvarcsv(listaC)
-        listaC.clear() #Limpar listaC para evitar acumulo de respostas repitidas.
+        listaC.clear()  # Limpar listaC para evitar acumulo de respostas repitidas.
         sleep(1)
 
 
@@ -85,6 +100,32 @@ def salvarcsv(respostas):
         writer.writerows(respostas)
 
 
+def apresentação():
+    print("Pesquisa sobre Diversidade no Local de Trabalho\n")
+    sleep(3)
+    os.system("cls")
+
+    print("Bem-vindo à nossa pesquisa sobre diversidade no local de trabalho!")
+    sleep(2)
+
+    print(
+        "Estamos empenhados em promover um ambiente de trabalho inclusivo e igualitário para todos os nossos colaboradores."
+    )
+    sleep(3)
+
+    print(
+        "Esta pesquisa tem como objetivo coletar opiniões e percepções sobre a diversidade e inclusão em nossa organização."
+    )
+    sleep(4)
+
+    print(
+        "Suas respostas são extremamente valiosas e nos ajudarão a tomar medidas para melhorar nossa cultura empresarial.\n"
+    )
+    sleep(4)
+
+
+apresentação()
 coletar_info()
+
 print("Obrigado por usar nosso Quiz.")
 print("Respostas salvas no arquivo 'respostas.csv'.")
