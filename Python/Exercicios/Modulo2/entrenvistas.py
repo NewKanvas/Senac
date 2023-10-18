@@ -56,7 +56,7 @@ class Dar:
         )
 
 
-def iniciar():
+def iniciar():  # Função para iniciar a classe
     idade = input("Digite sua idade:")
     cidade = input("Digite sua cidade:")
     estado = input("Digite seu estado:")
