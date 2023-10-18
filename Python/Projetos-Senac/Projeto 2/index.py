@@ -93,7 +93,7 @@ def coletar_info():
 def salvarcsv(respostas):
     with open("respostas.csv", mode="a", newline="") as file:
         # Modo "a" serve para adicionar
-        fieldnames = ["Idade", "Genero", "R1", "R2", "R3", "R4"]
+        fieldnames = ["Idade", "Genero", "R1", "R2", "R3", "R4"]  # Cabeçalho
         writer = csv.DictWriter(file, fieldnames=fieldnames)
 
         if file.tell() == 0:
@@ -105,7 +105,7 @@ def salvarcsv(respostas):
 
 
 def apresentacao():
-    print("Pesquisa sobre Diversidade no Local de Trabalho\n")
+    print("**Pesquisa sobre Diversidade no Local de Trabalho**\n")
     sleep(3)
     os.system("cls")
 
@@ -128,7 +128,7 @@ def apresentacao():
     sleep(4)
 
 
-# apresentação()
+apresentacao()
 coletar_info()
 
 print("Obrigado por usar nosso Quiz.")
