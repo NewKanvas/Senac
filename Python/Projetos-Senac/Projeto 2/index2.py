@@ -1,6 +1,7 @@
 import csv
 from time import sleep
 import os
+from datetime import datetime
 
 
 class Candidato:
@@ -15,7 +16,15 @@ class Candidato:
     def salvar(self):
         with open("respostas.csv", mode="a", newline="") as file:
             # Modo "a" serve para adicionar
-            fieldnames = ["Idade", "Genero", "R1", "R2", "R3", "R4"]  # Cabeçalho
+            fieldnames = [
+                "Idade",
+                "Genero",
+                "R1",
+                "R2",
+                "R3",
+                "R4",
+                "Date",
+            ]  # Cabeçalho
             writer = csv.DictWriter(file, fieldnames=fieldnames)
 
             # Se o arquivo não existir,
@@ -25,6 +34,9 @@ class Candidato:
                 # Em seguida, escreva o cabeçalho
                 writer.writeheader()
 
+            now = datetime.now()
+            date = now.strftime("%d-%m-%Y %H:%M:%S")
+
             writer.writerow(
                 {
                     "Idade": self.idade,
@@ -33,6 +45,7 @@ class Candidato:
                     "R2": self.r2,
                     "R3": self.r3,
                     "R4": self.r4,
+                    "Date": date,
                 }
             )
         # Resposta de Salmento
