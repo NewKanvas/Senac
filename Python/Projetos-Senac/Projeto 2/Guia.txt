@@ -1,4 +1,3 @@
-'''
 CONTEXTO:
 
 Sua equipe recebeu uma nova solicitação de projeto! Dessa vez
@@ -56,4 +55,3 @@ escolhas feitas.
 ● Todos os integrantes do grupo deverão apresentar;
 ● Utilizar slides de apoio para a apresentação;
 ● Seu grupo terá 15 minutos (no máximo) para apresentar
-'''

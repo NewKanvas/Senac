@@ -1,6 +1,4 @@
 import csv
-
-# import pandas as pd
 from time import sleep
 import os
 
@@ -128,7 +126,7 @@ def apresentacao():
     sleep(4)
 
 
-apresentacao()
+# apresentacao()
 coletar_info()
 
 print("Obrigado por usar nosso Quiz.")
