@@ -15,8 +15,11 @@ class Candidato:
         self.r4 = str(r4)
 
     def salvar(self):
+        dirname = os.path.dirname(os.path.abspath(__file__))
+        csvfilename = os.path.join(dirname, "respostas.csv")
+
         with open(
-            "C:/Users/47131502023.1/Desktop/Senac/Python/Projetos-Senac/Projeto 2/respostas/respostas.csv",
+            csvfilename,
             mode="a",
             newline="",
         ) as file:
