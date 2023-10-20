@@ -10,3 +10,9 @@ Como Fazer:
     Utilize o fatiamento para imprimir na tela os três últimos elementos da lista.
     Utilize o fatiamento para imprimir na tela uma sub-lista com o segundo e o terceiro elementos da lista.
 """
+
+x = [1, 2, 3, 4, 5, 6]
+
+print(x[0:3])
+print(x[3:])
+print(x[1:3])
