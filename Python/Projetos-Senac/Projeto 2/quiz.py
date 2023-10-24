@@ -2,6 +2,7 @@ import csv
 from datetime import datetime
 from time import sleep
 import os
+from cores import *
 
 
 class Candidato:
@@ -58,10 +59,11 @@ class Candidato:
                     "Date": date,
                 }
             )
-        # Resposta de Salmento
+        # Resposta de Salvamento
         print(
-            "Respostas foram salvas no arquivo 'respostas.csv', carregando proximo conjunto de perguntas."
+            f"{g}Respostas foram salvas no arquivo {y}'respostas.csv'{g}, carregando próximo conjunto de perguntas.{rt}"
         )
+
         sleep(1)
 
 
@@ -70,21 +72,18 @@ def idade(respostas):
     while True:
         os.system("cls")
 
-        idade = input("Identifique sua idade (ou '00' para sair): ")
+        idade = input(f"Identifique sua idade {y}(ou '00' para sair): {rt}")
 
-        if idade == "00":  # Sai de dentro do loop
-            print("Obrigado por usar nosso Quiz.")
-            print("Respostas salvas no arquivo 'respostas.csv'.")
+        if idade == "00":
+            print(f"{g}Obrigado por usar nosso Quiz.{rt}")
+            print(f"{g}Respostas foram salvas no arquivo {y}'respostas.csv'.{rt}")
             exit()
-
         idade = int(idade)
-
         if idade > 0:
             respostas["Idade"] = idade
             break
-
         else:
-            print("Valor inválido.")
+            print(f"{r}Valor inválido.{rt}")
             sleep(1)
             continue
 
@@ -95,7 +94,7 @@ def genero(respostas):
         os.system("cls")
 
         print("Identifique seu gênero.")
-        print("[1] - Masculino [2] - Feminino [3] - Não Binário")
+        print(f"{y}[1]{rt} - Masculino {y}[2]{rt} - Feminino {y}[3]{rt} - Não Binário")
 
         genero = int(input("Digite o número correspondente ao seu gênero: "))
 
@@ -112,7 +111,7 @@ def genero(respostas):
             break
 
         else:
-            print("Opção inválida. Tente novamente.")
+            print(f"{r}Opção inválida. Tente novamente.{rt}")
             sleep(1)
             continue
 
@@ -133,14 +132,22 @@ def perguntas(respostas):
         while True:
             os.system("cls")
             print(f"{i+1}) - {perg[i]}")
-            print("[1] - Sim [2] - Não [3] - Não sei responder")
+
+            # Selecioanar a melhor opção de cor
+
+            print(f"{y}[1]{rt} - Sim {y}[2]{rt} - Não {y}[3]{rt} - Não sei responder")
+            print(f"{g}[1] - Sim{rt} {r}[2] - Não{rt} {b}[3] - Não sei responder{rt}")
+            print(
+                f"{y}[1]{rt} - {g}Sim{rt} {y}[2]{rt} - {r}Não{rt} {y}[3]{rt} - {b}Não sei responder{rt}"
+            )
+
             x = int(input("Digite o valor correspondente a sua resposta:"))
 
             if x in [1, 2, 3]:
                 respostas[f"R{i+1}"] = x
                 break  # Sai do loop while quando um valor válido é digitado
             else:
-                print("Valor inválido. Digite 1, 2 ou 3.")
+                print(f"{r}Valor inválido. Digite 1, 2 ou 3.{rt}")
                 sleep(1)
 
 
@@ -149,30 +156,31 @@ def estado(respostas):
     while True:
         os.system("cls")
         # Lista de Estados
-        est = [
-            "Rio de Janeiro",
-            "São Paulo",
-            "Minas Gerais",
-            "Paraná",
-            "Rio Grande do Sul",
-            "Pará",
-            "Bahia",
-            "Santa Catariana",
-            "Acre",
-            "Ceará",
-        ]
+        est = {
+            "Rio de Janeiro": "RJ",
+            "São Paulo": "SP",
+            "Minas Gerais": "MG",
+            "Paraná": "PR",
+            "Rio Grande do Sul": "RS",
+            "Pará": "PA",
+            "Bahia": "BA",
+            "Santa Catarina": "SC",
+            "Acre": "AC",
+            "Ceará": "CE",
+        }
 
-        print("Identifique seu estado.")
-        for i in range(len(est)):
-            print(f"[{i+1}] - {est[i]}")
+        print("Identifique seu estado:")
+        for i, estado in enumerate(est, start=1):
+            print(f"{y}[{i}]{rt} - {g}{estado}{rt}")
 
         x = int(input("Digite o valor correspondente a sua resposta:"))
 
         if x > 0:
-            estado = est[x - 1]
-            respostas["Estado"] = estado
+            estado_selecionado = list(est.values())[x - 1]
+            respostas["Estado"] = estado_selecionado
+            print(respostas)
             break
 
         else:
-            print("Opção inválida.")
+            print(f"{r}Opção inválida.{rt}")
             sleep(2)

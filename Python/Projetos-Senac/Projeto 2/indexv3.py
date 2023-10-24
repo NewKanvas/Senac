@@ -1,6 +1,7 @@
 from time import sleep
 import os
-from candidatos import *
+from quiz import *
+from cores import *
 
 
 # iniciar Classe
