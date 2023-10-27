@@ -19,11 +19,7 @@ class Candidato:
         dirname = os.path.dirname(os.path.abspath(__file__))
         csvfilename = os.path.join(dirname, "respostas.csv")
 
-        with open(
-            csvfilename,
-            mode="a",
-            newline="",
-        ) as file:
+        with open(csvfilename, mode="a", newline="", encoding="utf-8") as file:
             # Modo "a" serve para adicionar
             fieldnames = [
                 "Idade",
@@ -64,7 +60,7 @@ class Candidato:
             f"{g}Respostas foram salvas no arquivo {y}'respostas.csv'{g}, carregando próximo conjunto de perguntas.{rt}"
         )
 
-        sleep(1)
+        sleep(2)
 
 
 # Pergunta da Idade
@@ -134,11 +130,16 @@ def perguntas(respostas):
             print(f"{i+1}) - {perg[i]}")
 
             # Selecioanar a melhor opção de cor
-
+            """
             print(f"{y}[1]{rt} - Sim {y}[2]{rt} - Não {y}[3]{rt} - Não sei responder")
             print(f"{g}[1] - Sim{rt} {r}[2] - Não{rt} {b}[3] - Não sei responder{rt}")
             print(
                 f"{y}[1]{rt} - {g}Sim{rt} {y}[2]{rt} - {r}Não{rt} {y}[3]{rt} - {b}Não sei responder{rt}"
+            )
+            """
+
+            print(
+                f"{g}[1] - Sim{rt}\n{r}[2] - Não{rt}\n[3] - Não sei responder",
             )
 
             x = int(input("Digite o valor correspondente a sua resposta:"))
