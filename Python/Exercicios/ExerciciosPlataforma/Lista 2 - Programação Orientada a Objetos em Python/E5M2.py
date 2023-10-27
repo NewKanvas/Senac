@@ -11,3 +11,25 @@ Como Fazer:
     Peça ao usuário para digitar os valores de nome, idade e matrícula do objeto;
     Exiba na tela os dados do aluno cadastrado.
 """
+
+
+class Aluno:
+    def __init__(self, nome, idade, matricula):
+        self.nome = nome
+        self.idade = idade
+        self.matricula = matricula
+
+    def dados(self):
+        print(self.nome, self.idade, self.matricula)
+
+
+def iniciar():
+    nome = input("Digite nome:")
+    idade = input("Digite idade:")
+    matricula = input("Digite matricula:")
+    a = Aluno(nome, idade, matricula)
+    return a
+
+
+aluno1 = iniciar()
+aluno1.dados()
