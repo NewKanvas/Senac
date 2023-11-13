@@ -7,7 +7,7 @@ CREATE TABLE estudante
  `endereco` VARCHAR(n) NOT NULL,  
  `email` VARCHAR(n) NOT NULL,  
  `deficiencia` VARCHAR(n) NOT NULL,  
- `cpf` VARCHAR(14) NOT NULL,  
+ `cpf` VARCHAR(14) NOT NULL 
 ); 
 
 CREATE TABLE facilitador 
@@ -20,13 +20,13 @@ CREATE TABLE facilitador
  `especializacoes` VARCHAR(n) NOT NULL,  
  `deficiencia` VARCHAR(n) NOT NULL,  
  `email` VARCHAR(n),  
- `cpf` VARCHAR(14) NOT NULL,  
+ `cpf` VARCHAR(14) NOT NULL
 ); 
 
 CREATE TABLE curso 
 ( 
  `id_curso` INT PRIMARY KEY AUTO_INCREMENT,  
- `nome_curso` VARCHAR(n) NOT NULL,  
+ `nome_curso` VARCHAR(n) NOT NULL  
 ); 
 
 CREATE TABLE dados_aluno 
@@ -38,7 +38,7 @@ CREATE TABLE dados_aluno
  `presenca` INT NOT NULL,  
  `status` INT,  
  `motivo` VARCHAR(n),  
- `update_data` DATE NOT NULL,  
+ `update_data` DATE NOT NULL
 ); 
 
 CREATE TABLE turma 
@@ -51,14 +51,14 @@ CREATE TABLE turma
  `hora_entrada` VARCHAR(n) NOT NULL,  
  `hora_saida` VARCHAR(n) NOT NULL,  
  `data_inicio` DATE NOT NULL,  
- `data_conclusao` DATE NOT NULL,  
+ `data_conclusao` DATE NOT NULL  
 ); 
 
 CREATE TABLE local 
 ( 
  `id_local` INT PRIMARY KEY AUTO_INCREMENT,  
  `numero` INT NOT NULL,  
- `unidade` VARCHAR(n) NOT NULL,  
+ `unidade` VARCHAR(n) NOT NULL
 ); 
 
 ALTER TABLE dados_aluno ADD FOREIGN KEY(id_aluno) REFERENCES estudante (id_aluno)
@@ -66,4 +66,6 @@ ALTER TABLE dados_aluno ADD FOREIGN KEY(id_turma) REFERENCES turma (id_turma)
 ALTER TABLE turma ADD FOREIGN KEY(id_facilitador) REFERENCES facilitador (id_facilitador)
 ALTER TABLE turma ADD FOREIGN KEY(id_curso) REFERENCES curso (id_curso)
 ALTER TABLE turma ADD FOREIGN KEY(id_aluno) REFERENCES estudante (id_aluno)
-ALTER TABLE turma ADD FOREIGN KEY(id_local) REFERENCES local (id_local)
+ALTER TABLE turma ADD FOREIGN KEY(id_local) REFERENCES (id_local)
+
+https://twitter.com/Bebseo
