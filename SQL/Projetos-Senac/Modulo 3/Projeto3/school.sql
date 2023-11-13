@@ -7,7 +7,7 @@ CREATE TABLE estudante
  `endereco` VARCHAR(n) NOT NULL,  
  `email` VARCHAR(n) NOT NULL,  
  `deficiencia` VARCHAR(n) NOT NULL,  
- `cpf` VARCHAR(n) NOT NULL,  
+ `cpf` VARCHAR(14) NOT NULL,  
 ); 
 
 CREATE TABLE facilitador 
@@ -20,7 +20,7 @@ CREATE TABLE facilitador
  `especializacoes` VARCHAR(n) NOT NULL,  
  `deficiencia` VARCHAR(n) NOT NULL,  
  `email` VARCHAR(n),  
- `cpf` VARCHAR(n) NOT NULL,  
+ `cpf` VARCHAR(14) NOT NULL,  
 ); 
 
 CREATE TABLE curso 
