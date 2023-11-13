@@ -16,7 +16,6 @@ CREATE TABLE `cliente` (
 
 -- Estrutura da tabela `fornecedor`
 
-use magazu;
 CREATE TABLE `fornecedor` (
   `codfornecedor` int(11) NOT NULL PRIMARY KEY auto_increment,
   `razaosocial` varchar(40) NOT NULL,
@@ -29,7 +28,7 @@ CREATE TABLE `fornecedor` (
 
 -- Estrutura da tabela `pedido`
 
-use magazu;
+
 CREATE TABLE `pedido` (
   `codpedido` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `datapedido` date NOT NULL,
@@ -42,7 +41,6 @@ CREATE TABLE `pedido` (
 
 -- Estrutura da tabela `produto`
 
-use magaju;
 CREATE TABLE `produto` (
   `codproduto` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT, 
   `descricao` varchar(40) NOT NULL,
@@ -114,7 +112,7 @@ INSERT INTO pedido(codpedido,datapedido, quantidade, valor, total,
 
  -- Criando Novas Tables
  
-use magaju;
+use magazu;
 
 CREATE TABLE departamento (
   coddepartamento int(11) NOT NULL primary key 
@@ -124,7 +122,7 @@ CREATE TABLE departamento (
   valorOrcamento float NOT NULL
 )
 
-use magaju;
+
 CREATE TABLE funcionario(
   codfuncionario int(11) NOT NULL primary key 
   AUTO_INCREMENT,
@@ -140,7 +138,7 @@ references departamento(coddepartamento);
 
 
 
-use magaju;
+
 CREATE TABLE itempedido(
   numeroitem int(11) NOT NULL primary key 
   AUTO_INCREMENT,
@@ -149,7 +147,7 @@ CREATE TABLE itempedido(
   codpedido int not null
 ) ;
 
-use magaju;
+
 ALTER TABLE itempedido ADD CONSTRAINT fk_codpedido
 FOREIGN KEY(codpedido)
 REFERENCES pedido(codpedido)

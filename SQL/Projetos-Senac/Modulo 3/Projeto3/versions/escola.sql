@@ -81,7 +81,7 @@ CREATE TABLE `turma` (
 
 CREATE TABLE `pauta`(
   `idpauta` INT(11) NOT NULL PRIMARY KEY auto_increment,
-  `idturma` INT(11) NOT NULL PRIMARY KEY, -- Turma/Curso
+  `idturma` INT(11) NOT NULL, -- Turma/Curso
   `idaluno` INT(11) NOT NULL, -- Aluno Referente
   `presenca` INT(11) NOT NULL, -- Total de Presença, se for menor que X reprova
   `nota` INT(11) NOT NULL
