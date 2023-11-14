@@ -68,4 +68,3 @@ ALTER TABLE turma ADD FOREIGN KEY(id_curso) REFERENCES curso (id_curso)
 ALTER TABLE turma ADD FOREIGN KEY(id_aluno) REFERENCES estudante (id_aluno)
 ALTER TABLE turma ADD FOREIGN KEY(id_local) REFERENCES (id_local)
 
-https://twitter.com/Bebseo
