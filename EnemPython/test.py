@@ -1,14 +1,33 @@
-lista = {"Porcentagem": "a", "Media": "b", "Logaritimo": "c"}
+import msvcrt
 
-x = 0
 
-if x < 0:
-    x = len(lista) - 1
-elif x >= len(lista):
-    x = 0
+def prompt_user():
+    print("Press 'Q' to continue.")
 
-for i, op in enumerate(lista):
-    if x == i:
-        print(f">> [{i+1}] {op}")
+    while True:
+        if msvcrt.kbhit():
+            key = msvcrt.getch().decode().upper()
+            print(key)
+
+            if key == "Q":
+                print("Continuing...")
+                break
+            else:
+                print("Invalid input. Press 'Q' to continue.")
+
+
+prompt_user()
+
+"""
+if y == "Q":
+        return -1
+    elif y == "E":
+        return 1
+    elif y == "0":
+        return "0"
+    elif y == "":
+        return 0
     else:
-        print(f"[{i+1}] {op}")
+        print("Invalid input. Please enter 'Q', 'E', '0', or press Enter.")
+
+        """

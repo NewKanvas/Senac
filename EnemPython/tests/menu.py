@@ -2,19 +2,16 @@ from time import sleep
 import os
 from cores import *
 from matematica import *
+import msvcrt
 
 
 def QnE():
-    y = input("\n").lower()
-
-    if y == "q":
-        return -1
-    elif y == "e":
-        return 1
-    elif y == "0":
-        return "0"
-    elif y == "":
-        return 0
+    if msvcrt.kbhit():
+        y = msvcrt.getch().decode().upper()
+        print(y)
+        return y  # Return the key value
+    else:
+        return ""  # Return an empty string if no key is pressed
 
 
 def tuto():
@@ -31,7 +28,14 @@ def tuto():
     os.system("cls")
 
 
-lista = {"Porcentagem": porcetangem, "Media": media, "Logaritimo": logaritimo}
+lista = {
+    "Porcentagem": porcentagem,
+    "Media": media,
+    "Logaritimo": logaritimo,
+    "Geometria": geometria,
+    "Equações Lineares": equacoes_lineares,
+    "Trigonometria": trigonometria,
+}
 
 
 def menu():
@@ -51,8 +55,10 @@ def menu():
                 print(f"[{i+1}] {op}")
         y = QnE()
 
-        if y == 0:
-            lista[list(lista.values())[x]]()
+        if y == "":
+            pass  # Do nothing if no key is pressed
+        else:
+            lista[list(lista.keys())[x]]()
 
         x = x + y
         os.system("cls")
