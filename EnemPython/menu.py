@@ -1,5 +1,6 @@
 from time import sleep
 import os
+from biblioteca import *
 from cores import *
 from matematica import *
 
@@ -42,7 +43,7 @@ def menu(title, lista):
         x = int(input(" >> "))
 
         if x in range(len(lista)):
-            lista[list(lista.keys())[x]]()
+            biblioteca(*lista[list(lista.keys())[x]]())
 
         else:
             print("Invalid Option")
