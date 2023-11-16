@@ -57,5 +57,5 @@ def apresentacao():
     input(f"{y}Pressione Enter para continuar...{rt}")
 
 
-apresentacao()
+# apresentacao()
 iniciar()
