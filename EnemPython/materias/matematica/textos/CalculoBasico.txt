@@ -1,0 +1,23 @@
+P ()
+E a²
+M x 
+D /
+A +
+S -
+
+
+"Soma\n
+
+"
+
+"Subtração\n
+
+"
+
+"Multiplicação\n
+
+"
+
+"Divisão\n
+
+"
