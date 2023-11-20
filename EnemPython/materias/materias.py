@@ -1,4 +1,4 @@
-from materias.matematica.matematica import *
+from materias.matematica import *
 
 
 def materias():
