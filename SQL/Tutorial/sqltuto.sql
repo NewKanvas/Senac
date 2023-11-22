@@ -30,8 +30,30 @@ SELECT preco, tipo_entrega
 FROM tb_pedido 
 WHERE preco <> 35 AND tipo_entrega = 'Retirada na loja';
 
+-- Pegar com a primeira letra J
+SELECT * FROM Pessoa WHERE Nome LIKE 'j%';
+
+-- Pegar com a ultima letra J
+SELECT * FROM Pessoa WHERE Nome LIKE '%j';
+
 DROP TABLE Pessoa --Deletar
 
 TRUNCATE TABLE Pessoa -- Deleta todos os valores da tabela
 
 DELETE FROM Pessoa WHERE Nome ='Jao'
+
+ALTER TABLE Pessoa 
+CHANGE COLUMN Nome nome VARCHAR(20) NOT NULL
+
+
+UPDATE tb_pizza
+SET categoria = 'Zero Lactese'
+WHERE categoria = 'Zero Lactose';
+
+UPDATE tb_pizza
+SET categoria = 'Zero Lactose'
+WHERE categoria = 'Zero Lactese'
+LIMIT 4;
+
+SELECT *
+FROM tb_pizza;
