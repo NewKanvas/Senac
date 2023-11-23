@@ -26,6 +26,11 @@ SELECT preco,tipo_entrega FROM tb_pedido WHERE preco >=10;
 -- <> Diferente
 SELECT preco,tipo_entrega FROM tb_pedido WHERE preco <> 25.5;
 
+SELECT entidade
+FROM tabela
+WHERE entidade = 'João';
+
+
 SELECT preco, tipo_entrega
 FROM tb_pedido 
 WHERE preco <> 35 AND tipo_entrega = 'Retirada na loja';
