@@ -91,11 +91,56 @@ GROUP BY tb_pizza.nome;
 
 -- #########
 
+use pizzaria;
+select c.nome, p.preco from tb_cliente c
+inner join tb_pedido p on c.id_cliente = p.id_cliente
+where p.tipo_entrega = 'Delivery';
 
+-- #########
+SELECT nome, COUNT(tb_pedido.id_cliente) 
+FROM tb_pedido
+INNER JOIN tb_cliente ON tb_pedido.id_cliente = tb_cliente.id_cliente
+GROUP BY tb_cliente.nome;
+
+SELECT nome, COUNT(tb_pedido.id_cliente) 
+FROM tb_pedido
+INNER JOIN tb_cliente ON tb_pedido.id_cliente = tb_cliente.id_cliente
+GROUP BY tb_cliente.nome
+HAVING COUNT(tb_pedido.id_cliente) >= 2;
+
+-- #########
+select  c.nome,p.nome from tb_cliente c
+inner join tb_pedido ped on c.id_cliente = ped.id_cliente
+inner join tb_pedido_pizza tp on ped.id_pedido = tp.id_pedido
+inner join tb_pizza p on p.id_pizza = tp.id_pizza
+GROUP BY p.nome;
 
 -- #########
 
--- Inserts 
+-- consulta para retornar o nome dos clientes e o nome das pizzas pedidas por ele filtrando somente as que são zero lactose
+
+select  c.nome,p.nome  from tb_cliente c
+inner join tb_pedido ped on c.id_cliente = ped.id_cliente
+inner join tb_pedido_pizza tp on ped.id_pedido = tp.id_pedido
+inner join tb_pizza p on p.id_pizza = tp.id_pizza
+WHERE p.nome LIKE '%ZERO LACTOSE';
+
+-- ########### Pela descrição
+
+select  c.nome,p.nome, p.descricao  from tb_cliente c
+inner join tb_pedido ped on c.id_cliente = ped.id_cliente
+inner join tb_pedido_pizza tp on ped.id_pedido = tp.id_pedido
+inner join tb_pizza p on p.id_pizza = tp.id_pizza
+WHERE p.descricao LIKE '%ZERO LACTOSE%';
+
+-- Gasto
+
+SELECT c.nome, sum(p.preco)
+FROM tb_cliente c
+INNER JOIN tb_pedido p on c.id_cliente = p.id_cliente
+GROUP BY c.nome ORDER BY sum(p.preco) desc;
+
+-- #########
 SELECT * FROM tb_pizza;
 SELECT * FROM tb_cliente;
 SELECT * FROM tb_pedido;
