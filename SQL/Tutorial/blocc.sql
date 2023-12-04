@@ -60,3 +60,13 @@ JOIN B on A.id = B.id;
 SELECT * FROM A
 INNER JOIN B on A.id = B.id;
 
+select CONCAT(nome,email) from tb_cliente;
+select UPPER(nome) from tb_cliente;
+select LOWER(nome) from tb_cliente;
+
+select UPPER(CONCAT(nome,email)) from tb_cliente;
+
+select length(nome) from tb_cliente;
+SELECT data_pedido from tb_pedido;
+SELECT extract(year from data_pedido) from tb_pedido;
+SELECT extract(month from data_pedido) from tb_pedido;

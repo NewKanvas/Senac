@@ -21,3 +21,7 @@ CREATE TABLE funcionarios(
     departamento VARCHAR,
     data_contratacao DATA
 );
+
+
+SELECT c.nome,p.id FROM clientes c
+INNER JOIN pedidos p ON p.id = c.id_cliente; 
