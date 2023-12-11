@@ -38,6 +38,10 @@ Supondo que temos duas tabelas ""clientes"" e ""pedidos"", e que cada pedido é 
     Execute a consulta e verifique os resultados.
 '''
 
+SELECT c,nome,p.id FROM clientes c
+INNER JOIN pedidos p ON p.id = c.id
+WHERE c.id = 1;
+
 
 '''
 3
@@ -58,7 +62,10 @@ Supondo que temos três tabelas ""clientes"", ""pedidos"" e ""itens_pedidos"", o
     Execute a consulta e verifique os resultados.
 '''
 
-
+SELECT c,nome,p.id FROM clientes c
+INNER JOIN pedidos p ON p.id = c.id
+INNER JOIN itens_pedidos i ON i.id_pedido = p.id
+GROUP BY c.id, c.nome, p.id;
 
 '''
 4
@@ -78,7 +85,10 @@ Supondo que temos duas tabelas ""clientes"" e ""pedidos"", onde cada pedido é v
     Adicione a cláusula ORDER BY para ordenar os resultados por uma coluna específica em ordem crescente ou decrescente;
     Execute a consulta e verifique os resultados.
 '''
-
+SELECT c.nome, p.*
+FROM clientes c
+INNER JOIN pedidos p ON c.id = p.id_cliente
+ORDER BY c.nome ASC;
 
 '''
 5
@@ -98,3 +108,8 @@ Supondo que temos três tabelas ""clientes"", ""pedidos"" e ""itens_pedidos"", o
     Adicione a cláusula WHERE para filtrar os resultados de acordo com uma condição específica;
     Execute a consulta e verifique os resultados.
 '''
+SELECT c.nome, p.id
+FROM clientes c
+INNER JOIN pedidos p ON c.id = p.id
+INNER JOIN itens_pedidos i ON p.id = i.id_pedido
+WHERE c.nome = 'Jonas';
