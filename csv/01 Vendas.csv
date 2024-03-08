@@ -1,0 +1,301 @@
+Data,Loja,Valor Vendido,Plataforma,Vendedor
+2022-12-18,Loja1,322,Loja Física,1
+2022-12-16,Loja3,500,Loja Física,2
+2022-12-15,Loja2,267,Internet,3
+2022-12-15,Loja2,338,Loja Física,4
+2022-12-14,Loja2,462,Loja Física,5
+2022-12-13,Loja4,353,Internet,1
+2022-12-09,Loja3,319,Internet,2
+2022-12-09,Loja2,369,Internet,3
+2022-12-07,Loja4,486,Internet,1
+2022-12-05,Loja3,50,Internet,2
+2022-12-01,Loja1,346,Internet,3
+2022-12-01,Loja1,494,Loja Física,1
+2022-12-01,Loja2,245,Internet,2
+2022-11-27,Loja2,293,Loja Física,3
+2022-11-27,Loja1,354,Internet,3
+2022-11-26,Loja1,499,Internet,3
+2022-11-25,Loja4,292,Loja Física,3
+2022-11-24,Loja2,374,Loja Física,3
+2022-11-24,Loja1,280,Loja Física,3
+2022-11-23,Loja4,499,Internet,3
+2022-11-21,Loja1,395,Internet,3
+2022-11-20,Loja3,970,Loja Física,3
+2022-11-19,Loja3,286,Loja Física,3
+2022-11-19,Loja4,412,Loja Física,3
+2022-11-19,Loja1,363,Internet,3
+2022-11-19,Loja1,417,Loja Física,3
+2022-11-18,Loja2,452,Internet,3
+2022-11-16,Loja2,284,Loja Física,1
+2022-11-14,Loja3,368,Loja Física,1
+2022-11-12,Loja1,422,Loja Física,1
+2022-11-12,Loja3,402,Loja Física,1
+2022-11-11,Loja1,414,Loja Física,1
+2022-11-08,Loja3,360,Internet,1
+2022-11-08,Loja3,424,Internet,1
+2022-11-07,Loja1,371,Internet,1
+2022-11-06,Loja2,312,Loja Física,1
+2022-11-04,Loja2,345,Internet,1
+2022-11-03,Loja4,100,Internet,1
+2022-11-03,Loja3,464,Loja Física,2
+2022-11-02,Loja1,970,Internet,3
+2022-11-02,Loja2,372,Loja Física,4
+2022-11-02,Loja2,390,Internet,5
+2022-11-01,Loja1,474,Loja Física,1
+2022-10-29,Loja3,348,Loja Física,2
+2022-10-26,Loja1,329,Internet,3
+2022-10-24,Loja3,361,Loja Física,1
+2022-10-21,Loja2,385,Loja Física,2
+2022-10-20,Loja4,496,Loja Física,3
+2022-10-18,Loja1,429,Internet,1
+2022-10-16,Loja1,265,Loja Física,2
+2022-10-16,Loja2,499,Loja Física,3
+2022-10-15,Loja4,326,Internet,4
+2022-10-15,Loja3,434,Internet,5
+2022-10-13,Loja1,413,Loja Física,1
+2022-10-13,Loja2,391,Loja Física,2
+2022-10-12,Loja2,295,Internet,3
+2022-10-10,Loja4,483,Internet,1
+2022-10-09,Loja4,357,Loja Física,2
+2022-10-08,Loja3,970,Loja Física,3
+2022-10-04,Loja1,362,Loja Física,4
+2022-10-04,Loja4,355,Internet,3
+2022-10-03,Loja4,449,Loja Física,3
+2022-10-02,Loja1,470,Loja Física,3
+2022-09-29,Loja2,296,Internet,3
+2022-09-29,Loja3,346,Loja Física,3
+2022-09-29,Loja4,262,Internet,4
+2022-09-28,Loja2,268,Loja Física,4
+2022-09-28,Loja2,452,Loja Física,4
+2022-09-28,Loja1,232,Loja Física,4
+2022-09-26,Loja2,425,Internet,4
+2022-09-25,Loja4,392,Loja Física,4
+2022-09-24,Loja2,410,Internet,4
+2022-09-22,Loja2,347,Internet,4
+2022-09-21,Loja2,314,Loja Física,4
+2022-09-20,Loja2,290,Internet,3
+2022-09-19,Loja3,303,Loja Física,1
+2022-09-18,Loja1,970,Loja Física,2
+2022-09-16,Loja4,376,Internet,3
+2022-09-13,Loja3,415,Internet,1
+2022-09-08,Loja1,431,Internet,2
+2022-09-08,Loja1,422,Internet,3
+2022-09-06,Loja2,334,Internet,4
+2022-09-06,Loja4,230,Loja Física,5
+2022-09-05,Loja4,405,Internet,1
+2022-09-04,Loja1,425,Loja Física,2
+2022-09-03,Loja3,100,Loja Física,3
+2022-09-01,Loja3,430,Internet,1
+2022-09-01,Loja3,474,Loja Física,1
+2022-09-01,Loja3,415,Loja Física,1
+2022-08-31,Loja2,499,Loja Física,1
+2022-08-29,Loja3,385,Internet,1
+2022-08-28,Loja1,231,Loja Física,1
+2022-08-26,Loja3,970,Loja Física,1
+2022-08-24,Loja2,384,Loja Física,1
+2022-08-24,Loja3,347,Internet,1
+2022-08-21,Loja3,355,Internet,1
+2022-08-20,Loja3,429,Internet,1
+2022-08-19,Loja2,459,Internet,2
+2022-08-19,Loja1,479,Loja Física,2
+2022-08-19,Loja3,288,Internet,2
+2022-08-18,Loja3,373,Loja Física,2
+2022-08-18,Loja3,409,Internet,2
+2022-08-17,Loja4,309,Internet,2
+2022-08-16,Loja3,382,Internet,2
+2022-08-15,Loja1,394,Loja Física,2
+2022-08-12,Loja3,305,Internet,2
+2022-08-11,Loja1,462,Loja Física,2
+2022-08-10,Loja1,312,Loja Física,3
+2022-08-08,Loja3,305,Loja Física,1
+2022-08-08,Loja1,478,Loja Física,2
+2022-08-06,Loja1,280,Internet,3
+2022-08-06,Loja4,970,Internet,1
+2022-08-06,Loja4,404,Loja Física,2
+2022-08-06,Loja2,495,Loja Física,3
+2022-08-04,Loja2,247,Loja Física,4
+2022-08-04,Loja3,358,Internet,5
+2022-08-04,Loja2,451,Internet,1
+2022-08-03,Loja3,362,Loja Física,2
+2022-08-03,Loja2,430,Loja Física,3
+2022-08-01,Loja2,387,Loja Física,1
+2022-07-31,Loja4,373,Internet,2
+2022-07-31,Loja1,256,Internet,2
+2022-07-31,Loja4,457,Loja Física,2
+2022-07-31,Loja3,380,Internet,2
+2022-07-28,Loja4,302,Loja Física,2
+2022-07-26,Loja4,307,Loja Física,2
+2022-07-25,Loja1,970,Loja Física,2
+2022-07-24,Loja1,369,Loja Física,2
+2022-07-22,Loja1,381,Loja Física,2
+2022-07-21,Loja4,491,Loja Física,6
+2022-07-21,Loja2,364,Internet,6
+2022-07-19,Loja4,296,Loja Física,6
+2022-07-18,Loja2,370,Loja Física,6
+2022-07-17,Loja1,266,Internet,6
+2022-07-13,Loja2,265,Loja Física,6
+2022-07-12,Loja3,336,Loja Física,6
+2022-07-09,Loja4,345,Internet,6
+2022-07-08,Loja2,970,Loja Física,6
+2022-07-08,Loja4,340,Loja Física,6
+2022-07-08,Loja1,474,Internet,6
+2022-07-08,Loja2,418,Internet,6
+2022-07-06,Loja2,397,Internet,3
+2022-07-03,Loja3,448,Internet,1
+2022-07-03,Loja4,415,Loja Física,2
+2022-07-01,Loja2,480,Loja Física,3
+2022-06-30,Loja1,352,Internet,1
+2022-06-29,Loja4,241,Loja Física,2
+2022-06-28,Loja1,259,Loja Física,3
+2022-06-26,Loja4,456,Internet,4
+2022-06-24,Loja3,970,Internet,5
+2022-06-23,Loja2,296,Internet,1
+2022-06-21,Loja2,367,Loja Física,2
+2022-06-20,Loja1,481,Loja Física,3
+2022-06-19,Loja3,279,Internet,1
+2022-06-17,Loja1,272,Internet,1
+2022-06-16,Loja2,468,Loja Física,2
+2022-06-14,Loja1,347,Internet,3
+2022-06-13,Loja1,276,Internet,4
+2022-06-13,Loja3,437,Loja Física,5
+2022-06-12,Loja1,235,Internet,1
+2022-06-10,Loja1,498,Internet,2
+2022-06-10,Loja1,970,Loja Física,3
+2022-06-09,Loja1,268,Internet,1
+2022-06-03,Loja4,315,Internet,2
+2022-06-03,Loja2,426,Loja Física,3
+2022-06-03,Loja1,263,Loja Física,1
+2022-06-02,Loja1,443,Internet,2
+2022-06-02,Loja4,365,Internet,3
+2022-05-30,Loja3,345,Internet,3
+2022-05-26,Loja4,313,Loja Física,3
+2022-05-25,Loja3,385,Loja Física,3
+2022-05-23,Loja4,433,Loja Física,3
+2022-05-23,Loja3,351,Internet,3
+2022-05-18,Loja4,390,Loja Física,3
+2022-05-17,Loja4,338,Internet,3
+2022-05-13,Loja1,396,Internet,3
+2022-05-12,Loja3,310,Loja Física,3
+2022-05-06,Loja4,452,Loja Física,3
+2022-05-06,Loja4,312,Loja Física,3
+2022-05-05,Loja4,301,Loja Física,3
+2022-05-04,Loja2,422,Internet,3
+2022-05-02,Loja1,342,Internet,1
+2022-04-29,Loja3,326,Loja Física,1
+2022-04-28,Loja3,335,Loja Física,1
+2022-04-28,Loja2,412,Loja Física,1
+2022-04-27,Loja4,266,Loja Física,1
+2022-04-26,Loja2,349,Internet,1
+2022-04-26,Loja2,352,Loja Física,1
+2022-04-26,Loja4,423,Internet,1
+2022-04-25,Loja2,279,Internet,1
+2022-04-24,Loja2,437,Loja Física,1
+2022-04-22,Loja3,495,Internet,1
+2022-04-21,Loja1,388,Loja Física,2
+2022-04-20,Loja4,452,Internet,3
+2022-04-18,Loja2,297,Internet,4
+2022-04-17,Loja4,253,Internet,5
+2022-04-17,Loja4,456,Loja Física,1
+2022-04-17,Loja2,277,Loja Física,2
+2022-04-16,Loja2,274,Loja Física,3
+2022-04-16,Loja3,353,Internet,1
+2022-04-12,Loja4,460,Loja Física,2
+2022-04-05,Loja2,428,Internet,3
+2022-04-05,Loja2,426,Internet,1
+2022-04-05,Loja4,305,Loja Física,2
+2022-04-04,Loja3,372,Internet,3
+2022-04-01,Loja4,380,Loja Física,4
+2022-03-31,Loja1,429,Internet,5
+2022-03-29,Loja2,321,Internet,1
+2022-03-26,Loja1,970,Loja Física,2
+2022-03-25,Loja3,233,Loja Física,3
+2022-03-24,Loja3,336,Loja Física,1
+2022-03-15,Loja2,442,Loja Física,2
+2022-03-15,Loja3,311,Internet,3
+2022-03-14,Loja4,404,Loja Física,4
+2022-03-12,Loja1,453,Internet,3
+2022-03-11,Loja1,317,Loja Física,3
+2022-03-11,Loja3,473,Loja Física,3
+2022-03-10,Loja4,392,Loja Física,3
+2022-03-09,Loja1,295,Loja Física,3
+2022-03-08,Loja2,392,Loja Física,4
+2022-03-07,Loja2,374,Internet,4
+2022-03-07,Loja1,306,Loja Física,4
+2022-03-06,Loja4,234,Loja Física,4
+2022-03-05,Loja2,344,Loja Física,4
+2022-03-05,Loja4,500,Loja Física,4
+2022-03-05,Loja3,424,Internet,4
+2022-03-05,Loja4,250,Internet,4
+2022-03-02,Loja1,397,Loja Física,4
+2022-03-01,Loja1,394,Loja Física,3
+2022-02-28,Loja4,428,Internet,1
+2022-02-26,Loja2,284,Loja Física,2
+2022-02-26,Loja1,268,Internet,3
+2022-02-25,Loja4,446,Internet,1
+2022-02-24,Loja4,405,Loja Física,2
+2022-02-24,Loja4,476,Internet,3
+2022-02-23,Loja2,237,Internet,4
+2022-02-23,Loja4,314,Loja Física,5
+2022-02-22,Loja4,970,Loja Física,1
+2022-02-20,Loja1,239,Internet,2
+2022-02-19,Loja3,236,Internet,3
+2022-02-19,Loja1,289,Internet,1
+2022-02-19,Loja3,261,Internet,1
+2022-02-17,Loja4,361,Internet,1
+2022-02-16,Loja4,427,Loja Física,1
+2022-02-15,Loja4,407,Internet,1
+2022-02-13,Loja1,333,Loja Física,1
+2022-02-13,Loja2,412,Internet,1
+2022-02-12,Loja1,356,Internet,1
+2022-02-12,Loja4,278,Internet,1
+2022-02-11,Loja3,389,Internet,1
+2022-02-11,Loja1,278,Loja Física,1
+2022-02-10,Loja1,339,Loja Física,2
+2022-02-09,Loja4,269,Internet,2
+2022-02-08,Loja3,297,Internet,2
+2022-02-07,Loja1,390,Internet,2
+2022-02-07,Loja1,417,Loja Física,2
+2022-02-05,Loja1,329,Internet,2
+2022-02-05,Loja3,312,Loja Física,2
+2022-02-03,Loja3,970,Internet,2
+2022-02-01,Loja3,492,Internet,2
+2022-01-29,Loja4,387,Internet,2
+2022-01-27,Loja1,336,Loja Física,3
+2022-01-27,Loja3,379,Internet,1
+2022-01-23,Loja3,415,Loja Física,2
+2022-01-23,Loja2,281,Loja Física,3
+2022-01-21,Loja2,288,Loja Física,1
+2022-01-21,Loja1,274,Internet,2
+2022-01-21,Loja1,471,Loja Física,3
+2022-01-19,Loja4,355,Loja Física,4
+2022-01-19,Loja1,252,Internet,5
+2022-01-18,Loja3,304,Loja Física,1
+2022-01-17,Loja3,467,Internet,2
+2022-01-17,Loja4,410,Internet,3
+2022-01-17,Loja2,345,Internet,1
+2022-01-17,Loja1,323,Loja Física,2
+2022-01-17,Loja3,259,Loja Física,2
+2022-01-16,Loja2,426,Internet,2
+2022-01-13,Loja3,372,Loja Física,2
+2022-01-13,Loja1,297,Loja Física,2
+2022-01-13,Loja3,970,Internet,2
+2022-01-13,Loja2,469,Loja Física,2
+2022-01-11,Loja1,326,Loja Física,2
+2022-01-10,Loja2,336,Internet,2
+2022-01-09,Loja4,357,Loja Física,6
+2022-01-08,Loja3,369,Internet,6
+2022-01-08,Loja2,383,Internet,6
+2022-01-07,Loja3,471,Internet,6
+2022-01-05,Loja2,252,Loja Física,6
+2022-01-05,Loja3,455,Internet,6
+2022-01-03,Loja3,372,Internet,6
+2022-01-02,Loja3,357,Loja Física,6
+2022-01-01,Loja2,335,Loja Física,6
+2021-12-29,Loja2,305,Internet,6
+2021-12-29,Loja4,421,Internet,6
+2021-12-27,Loja3,372,Internet,6
+2021-12-27,Loja1,326,Loja Física,3
+2021-12-24,Loja3,250,Loja Física,1
+2021-12-22,Loja2,300,Loja Física,2
+2021-12-21,Loja4,257,Loja Física,3
+2021-12-20,Loja1,375,Internet,1
