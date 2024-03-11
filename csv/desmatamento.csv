@@ -1,0 +1,351 @@
+Estado,Data,Area Desmatada
+Acre,1988-01-01,620
+Acre,1989-01-01,540
+Acre,1990-01-01,550
+Acre,1991-01-01,380
+Acre,1992-01-01,400
+Acre,1993-01-01,482
+Acre,1994-01-01,482
+Acre,1995-01-01,1208
+Acre,1996-01-01,433
+Acre,1997-01-01,358
+Acre,1998-01-01,536
+Acre,1999-01-01,441
+Acre,2000-01-01,547
+Acre,2001-01-01,419
+Acre,2002-01-01,883
+Acre,2003-01-01,1078
+Acre,2004-01-01,728
+Acre,2005-01-01,592
+Acre,2006-01-01,398
+Acre,2007-01-01,184
+Acre,2008-01-01,254
+Acre,2009-01-01,167
+Acre,2010-01-01,259
+Acre,2011-01-01,280
+Acre,2012-01-01,305
+Acre,2013-01-01,221
+Acre,2014-01-01,309
+Acre,2015-01-01,264
+Acre,2016-01-01,372
+Acre,2017-01-01,257
+Acre,2018-01-01,444
+Acre,2019-01-01,682
+Acre,2020-01-01,706
+Acre,2021-01-01,889
+Acre,2022-01-01,847
+Amazonas,1988-01-01,1510
+Amazonas,1989-01-01,1180
+Amazonas,1990-01-01,520
+Amazonas,1991-01-01,980
+Amazonas,1992-01-01,799
+Amazonas,1993-01-01,370
+Amazonas,1994-01-01,370
+Amazonas,1995-01-01,2114
+Amazonas,1996-01-01,1023
+Amazonas,1997-01-01,589
+Amazonas,1998-01-01,670
+Amazonas,1999-01-01,720
+Amazonas,2000-01-01,612
+Amazonas,2001-01-01,634
+Amazonas,2002-01-01,885
+Amazonas,2003-01-01,1558
+Amazonas,2004-01-01,1232
+Amazonas,2005-01-01,775
+Amazonas,2006-01-01,788
+Amazonas,2007-01-01,610
+Amazonas,2008-01-01,604
+Amazonas,2009-01-01,405
+Amazonas,2010-01-01,595
+Amazonas,2011-01-01,502
+Amazonas,2012-01-01,523
+Amazonas,2013-01-01,583
+Amazonas,2014-01-01,500
+Amazonas,2015-01-01,712
+Amazonas,2016-01-01,1129
+Amazonas,2017-01-01,1001
+Amazonas,2018-01-01,1045
+Amazonas,2019-01-01,1434
+Amazonas,2020-01-01,1512
+Amazonas,2021-01-01,2306
+Amazonas,2022-01-01,2607
+Amapá,1988-01-01,60
+Amapá,1989-01-01,130
+Amapá,1990-01-01,250
+Amapá,1991-01-01,410
+Amapá,1992-01-01,36
+Amapá,1993-01-01,0
+Amapá,1994-01-01,0
+Amapá,1995-01-01,9
+Amapá,1996-01-01,0
+Amapá,1997-01-01,18
+Amapá,1998-01-01,30
+Amapá,1999-01-01,0
+Amapá,2000-01-01,0
+Amapá,2001-01-01,7
+Amapá,2002-01-01,0
+Amapá,2003-01-01,25
+Amapá,2004-01-01,46
+Amapá,2005-01-01,33
+Amapá,2006-01-01,30
+Amapá,2007-01-01,39
+Amapá,2008-01-01,100
+Amapá,2009-01-01,70
+Amapá,2010-01-01,53
+Amapá,2011-01-01,66
+Amapá,2012-01-01,27
+Amapá,2013-01-01,23
+Amapá,2014-01-01,31
+Amapá,2015-01-01,25
+Amapá,2016-01-01,17
+Amapá,2017-01-01,24
+Amapá,2018-01-01,24
+Amapá,2019-01-01,32
+Amapá,2020-01-01,24
+Amapá,2021-01-01,17
+Amapá,2022-01-01,6
+Maranhão,1988-01-01,2450
+Maranhão,1989-01-01,1420
+Maranhão,1990-01-01,1100
+Maranhão,1991-01-01,670
+Maranhão,1992-01-01,1135
+Maranhão,1993-01-01,372
+Maranhão,1994-01-01,372
+Maranhão,1995-01-01,1745
+Maranhão,1996-01-01,1061
+Maranhão,1997-01-01,409
+Maranhão,1998-01-01,1012
+Maranhão,1999-01-01,1230
+Maranhão,2000-01-01,1065
+Maranhão,2001-01-01,958
+Maranhão,2002-01-01,1085
+Maranhão,2003-01-01,993
+Maranhão,2004-01-01,755
+Maranhão,2005-01-01,922
+Maranhão,2006-01-01,674
+Maranhão,2007-01-01,631
+Maranhão,2008-01-01,1271
+Maranhão,2009-01-01,828
+Maranhão,2010-01-01,712
+Maranhão,2011-01-01,396
+Maranhão,2012-01-01,269
+Maranhão,2013-01-01,403
+Maranhão,2014-01-01,257
+Maranhão,2015-01-01,209
+Maranhão,2016-01-01,258
+Maranhão,2017-01-01,265
+Maranhão,2018-01-01,253
+Maranhão,2019-01-01,237
+Maranhão,2020-01-01,336
+Maranhão,2021-01-01,350
+Maranhão,2022-01-01,282
+Mato Grosso,1988-01-01,5140
+Mato Grosso,1989-01-01,5960
+Mato Grosso,1990-01-01,4020
+Mato Grosso,1991-01-01,2840
+Mato Grosso,1992-01-01,4674
+Mato Grosso,1993-01-01,6220
+Mato Grosso,1994-01-01,6220
+Mato Grosso,1995-01-01,10391
+Mato Grosso,1996-01-01,6543
+Mato Grosso,1997-01-01,5271
+Mato Grosso,1998-01-01,6466
+Mato Grosso,1999-01-01,6963
+Mato Grosso,2000-01-01,6369
+Mato Grosso,2001-01-01,7703
+Mato Grosso,2002-01-01,7892
+Mato Grosso,2003-01-01,10405
+Mato Grosso,2004-01-01,11814
+Mato Grosso,2005-01-01,7145
+Mato Grosso,2006-01-01,4333
+Mato Grosso,2007-01-01,2678
+Mato Grosso,2008-01-01,3258
+Mato Grosso,2009-01-01,1049
+Mato Grosso,2010-01-01,871
+Mato Grosso,2011-01-01,1120
+Mato Grosso,2012-01-01,757
+Mato Grosso,2013-01-01,1139
+Mato Grosso,2014-01-01,1075
+Mato Grosso,2015-01-01,1601
+Mato Grosso,2016-01-01,1489
+Mato Grosso,2017-01-01,1561
+Mato Grosso,2018-01-01,1490
+Mato Grosso,2019-01-01,1702
+Mato Grosso,2020-01-01,1779
+Mato Grosso,2021-01-01,2213
+Mato Grosso,2022-01-01,1906
+Pará,1988-01-01,6990
+Pará,1989-01-01,5750
+Pará,1990-01-01,4890
+Pará,1991-01-01,3780
+Pará,1992-01-01,3787
+Pará,1993-01-01,4284
+Pará,1994-01-01,4284
+Pará,1995-01-01,7845
+Pará,1996-01-01,6135
+Pará,1997-01-01,4139
+Pará,1998-01-01,5829
+Pará,1999-01-01,5111
+Pará,2000-01-01,6671
+Pará,2001-01-01,5237
+Pará,2002-01-01,7510
+Pará,2003-01-01,7145
+Pará,2004-01-01,8870
+Pará,2005-01-01,5899
+Pará,2006-01-01,5659
+Pará,2007-01-01,5526
+Pará,2008-01-01,5607
+Pará,2009-01-01,4281
+Pará,2010-01-01,3770
+Pará,2011-01-01,3008
+Pará,2012-01-01,1741
+Pará,2013-01-01,2346
+Pará,2014-01-01,1887
+Pará,2015-01-01,2153
+Pará,2016-01-01,2992
+Pará,2017-01-01,2433
+Pará,2018-01-01,2744
+Pará,2019-01-01,4172
+Pará,2020-01-01,4899
+Pará,2021-01-01,5238
+Pará,2022-01-01,4141
+Rondônia,1988-01-01,2340
+Rondônia,1989-01-01,1430
+Rondônia,1990-01-01,1670
+Rondônia,1991-01-01,1110
+Rondônia,1992-01-01,2265
+Rondônia,1993-01-01,2595
+Rondônia,1994-01-01,2595
+Rondônia,1995-01-01,4730
+Rondônia,1996-01-01,2432
+Rondônia,1997-01-01,1986
+Rondônia,1998-01-01,2041
+Rondônia,1999-01-01,2358
+Rondônia,2000-01-01,2465
+Rondônia,2001-01-01,2673
+Rondônia,2002-01-01,3099
+Rondônia,2003-01-01,3597
+Rondônia,2004-01-01,3858
+Rondônia,2005-01-01,3244
+Rondônia,2006-01-01,2049
+Rondônia,2007-01-01,1611
+Rondônia,2008-01-01,1136
+Rondônia,2009-01-01,482
+Rondônia,2010-01-01,435
+Rondônia,2011-01-01,865
+Rondônia,2012-01-01,773
+Rondônia,2013-01-01,932
+Rondônia,2014-01-01,684
+Rondônia,2015-01-01,1030
+Rondônia,2016-01-01,1376
+Rondônia,2017-01-01,1243
+Rondônia,2018-01-01,1316
+Rondônia,2019-01-01,1257
+Rondônia,2020-01-01,1273
+Rondônia,2021-01-01,1673
+Rondônia,2022-01-01,1512
+Roraima,1988-01-01,290
+Roraima,1989-01-01,630
+Roraima,1990-01-01,150
+Roraima,1991-01-01,420
+Roraima,1992-01-01,281
+Roraima,1993-01-01,240
+Roraima,1994-01-01,240
+Roraima,1995-01-01,220
+Roraima,1996-01-01,214
+Roraima,1997-01-01,184
+Roraima,1998-01-01,223
+Roraima,1999-01-01,220
+Roraima,2000-01-01,253
+Roraima,2001-01-01,345
+Roraima,2002-01-01,84
+Roraima,2003-01-01,439
+Roraima,2004-01-01,311
+Roraima,2005-01-01,133
+Roraima,2006-01-01,231
+Roraima,2007-01-01,309
+Roraima,2008-01-01,574
+Roraima,2009-01-01,121
+Roraima,2010-01-01,256
+Roraima,2011-01-01,141
+Roraima,2012-01-01,124
+Roraima,2013-01-01,170
+Roraima,2014-01-01,219
+Roraima,2015-01-01,156
+Roraima,2016-01-01,202
+Roraima,2017-01-01,132
+Roraima,2018-01-01,195
+Roraima,2019-01-01,590
+Roraima,2020-01-01,297
+Roraima,2021-01-01,315
+Roraima,2022-01-01,240
+Tocantins,1988-01-01,1650
+Tocantins,1989-01-01,730
+Tocantins,1990-01-01,580
+Tocantins,1991-01-01,440
+Tocantins,1992-01-01,409
+Tocantins,1993-01-01,333
+Tocantins,1994-01-01,333
+Tocantins,1995-01-01,797
+Tocantins,1996-01-01,320
+Tocantins,1997-01-01,273
+Tocantins,1998-01-01,576
+Tocantins,1999-01-01,216
+Tocantins,2000-01-01,244
+Tocantins,2001-01-01,189
+Tocantins,2002-01-01,212
+Tocantins,2003-01-01,156
+Tocantins,2004-01-01,158
+Tocantins,2005-01-01,271
+Tocantins,2006-01-01,124
+Tocantins,2007-01-01,63
+Tocantins,2008-01-01,107
+Tocantins,2009-01-01,61
+Tocantins,2010-01-01,49
+Tocantins,2011-01-01,40
+Tocantins,2012-01-01,52
+Tocantins,2013-01-01,74
+Tocantins,2014-01-01,50
+Tocantins,2015-01-01,57
+Tocantins,2016-01-01,58
+Tocantins,2017-01-01,31
+Tocantins,2018-01-01,25
+Tocantins,2019-01-01,23
+Tocantins,2020-01-01,25
+Tocantins,2021-01-01,37
+Tocantins,2022-01-01,27
+Area Total Desmatamento,1988-01-01,21050
+Area Total Desmatamento,1989-01-01,17770
+Area Total Desmatamento,1990-01-01,13730
+Area Total Desmatamento,1991-01-01,11030
+Area Total Desmatamento,1992-01-01,13786
+Area Total Desmatamento,1993-01-01,14896
+Area Total Desmatamento,1994-01-01,14896
+Area Total Desmatamento,1995-01-01,29059
+Area Total Desmatamento,1996-01-01,18161
+Area Total Desmatamento,1997-01-01,13227
+Area Total Desmatamento,1998-01-01,17383
+Area Total Desmatamento,1999-01-01,17259
+Area Total Desmatamento,2000-01-01,18226
+Area Total Desmatamento,2001-01-01,18165
+Area Total Desmatamento,2002-01-01,21650
+Area Total Desmatamento,2003-01-01,25396
+Area Total Desmatamento,2004-01-01,27772
+Area Total Desmatamento,2005-01-01,19014
+Area Total Desmatamento,2006-01-01,14286
+Area Total Desmatamento,2007-01-01,11651
+Area Total Desmatamento,2008-01-01,12911
+Area Total Desmatamento,2009-01-01,7464
+Area Total Desmatamento,2010-01-01,7000
+Area Total Desmatamento,2011-01-01,6418
+Area Total Desmatamento,2012-01-01,4571
+Area Total Desmatamento,2013-01-01,5891
+Area Total Desmatamento,2014-01-01,5012
+Area Total Desmatamento,2015-01-01,6207
+Area Total Desmatamento,2016-01-01,7893
+Area Total Desmatamento,2017-01-01,6947
+Area Total Desmatamento,2018-01-01,7536
+Area Total Desmatamento,2019-01-01,10129
+Area Total Desmatamento,2020-01-01,10851
+Area Total Desmatamento,2021-01-01,13038
+Area Total Desmatamento,2022-01-01,11568
